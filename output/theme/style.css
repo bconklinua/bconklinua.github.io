@@ -1,7 +1,27 @@
 html, body {
-  margin: 0;
-  border: 0;
+  margin: 20px;
+  border: 20px;
   font-size: 100%;
   background-color: #400000;
   color: #ffffff;
+  link: #ffff00;
 }
+/* unvisited link */
+a:link {
+  color: #ffffaa;
+}
+
+/* visited link */
+a:visited {
+  color: #cccc80;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffff00;
+}
+
+/* selected link */
+a:active {
+  color: #ffff00;
+} 
